@@ -1,0 +1,291 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - CenteredCollectionView (2.2.2)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Cosmos (23.0.0)
+  - DLParser (3.0.0)
+  - DSGradientProgressView (1.0.1)
+  - Firebase/Analytics (8.0.0):
+    - Firebase/Core
+  - Firebase/Core (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.0.0)
+  - Firebase/CoreOnly (8.0.0):
+    - FirebaseCore (= 8.0.0)
+  - Firebase/Crashlytics (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 8.0.0)
+  - Firebase/Messaging (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.0.0)
+  - FirebaseAnalytics (8.0.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.0.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.0.0):
+    - FirebaseAnalytics/Base (= 8.0.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/Base (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.0.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.0)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (~> 1.2)
+  - FirebaseMessaging (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+  - FittedSheets (2.4.0)
+  - GoogleAppMeasurement (8.0.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.0.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.4.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.4.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.1)"
+  - GoogleUtilities/Reachability (7.4.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.4.1):
+    - GoogleUtilities/Logger
+  - Instructions (2.1.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - LabelSwitch (0.1.7)
+  - MaterialShowcase (0.8.0)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - NewPopMenu (2.1.2)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ObjectMapper (3.5.3)
+  - PromisesObjC (1.2.12)
+  - Realm (10.19.0):
+    - Realm/Headers (= 10.19.0)
+  - Realm/Headers (10.19.0)
+  - RealmSwift (10.19.0):
+    - Realm (= 10.19.0)
+  - Ripples (0.1.0)
+  - SCLAlertView (0.8)
+  - SideMenu (6.5.0)
+  - Siren (3.4.3)
+  - SwiftGifOrigin (1.7.0)
+  - SwiftQRScanner (1.0.9)
+  - SwiftyJSON (4.3.0)
+  - TextFieldEffects (1.6.0)
+  - Toast-Swift (5.0.1)
+  - WSTagsField (5.4.0)
+  - YesWeScan (2.2.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - AlamofireImage (~> 4.1)
+  - CenteredCollectionView
+  - Charts
+  - Cosmos (~> 23.0)
+  - DLParser (~> 3.0)
+  - DSGradientProgressView
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - FittedSheets
+  - Instructions (~> 2.1.0)
+  - IQKeyboardManagerSwift
+  - LabelSwitch
+  - MaterialShowcase
+  - MQTTClient
+  - NewPopMenu (~> 2.0)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.5)
+  - RealmSwift
+  - Ripples
+  - SCLAlertView
+  - SideMenu (~> 6.0)
+  - Siren (from `https://github.com/ArtSabintsev/Siren.git`, branch `swift4.1`)
+  - SwiftGifOrigin (~> 1.7.0)
+  - SwiftQRScanner (from `https://github.com/vinodiOS/SwiftQRScanner`)
+  - SwiftyJSON (~> 4.0)
+  - TextFieldEffects
+  - Toast-Swift (~> 5.0.1)
+  - WSTagsField
+  - YesWeScan
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - CenteredCollectionView
+    - Charts
+    - Cosmos
+    - DLParser
+    - DSGradientProgressView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FittedSheets
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - Instructions
+    - IQKeyboardManagerSwift
+    - LabelSwitch
+    - MaterialShowcase
+    - MQTTClient
+    - nanopb
+    - NewPopMenu
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - PromisesObjC
+    - Realm
+    - RealmSwift
+    - Ripples
+    - SCLAlertView
+    - SideMenu
+    - SwiftGifOrigin
+    - SwiftyJSON
+    - TextFieldEffects
+    - Toast-Swift
+    - WSTagsField
+    - YesWeScan
+
+EXTERNAL SOURCES:
+  Siren:
+    :branch: swift4.1
+    :git: https://github.com/ArtSabintsev/Siren.git
+  SwiftQRScanner:
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+CHECKOUT OPTIONS:
+  Siren:
+    :commit: 94b319573e876597668eab7a4ed87e3add8bf4a5
+    :git: https://github.com/ArtSabintsev/Siren.git
+  SwiftQRScanner:
+    :commit: 9eb7b0bb5397b596cbf1fcaa11636a197cc84132
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  CenteredCollectionView: a9217908a698c386cbb98af11b596da48900b908
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DLParser: b5336f9360afd18b993d498a6632e313cbb77c97
+  DSGradientProgressView: 256d85dc3a92b429ace38617ceb459faec42bb41
+  Firebase: 73c3e3b216ec1ecbc54d2ffdd4670c65c749edb1
+  FirebaseAnalytics: dcb92c7c9ef4fa7ffac276e8f87bd4fc8c97f1b8
+  FirebaseCore: 3f09591d51292843e2a46f18358d60bf4e996255
+  FirebaseCoreDiagnostics: a31d987ba0fe16d59886a5dbadc2f1de871f88c8
+  FirebaseCrashlytics: 69cddb6bfa7656c5346e603bc85b029392252ee6
+  FirebaseInstallations: c4aab1005d6547b00a7529777fe52f5d4d45165b
+  FirebaseMessaging: 1a33b4af3c8042ed6ddacb6c031894af2064bfab
+  FittedSheets: 470a7740a083156d711ab6ccd37d1d539005e6aa
+  GoogleAppMeasurement: c6bbc9753d046b5456dd4f940057fbad2c28419e
+  GoogleDataTransport: 11e3a5f2c190327df1a4a5d7e7ae3d4d5b9c9e4c
+  GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
+  Instructions: 2465e321dde23f7c8fc26fe8efddf605df80dfba
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  LabelSwitch: 97b19eb5e11b27854559374357375134d40c744f
+  MaterialShowcase: 0c0cef713a6504cd2a76a5d047bcb2787944a318
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Realm: 869ab2a7e3bdfa6bf06d8723251539f504e6f602
+  RealmSwift: f1f51c4a02fe826e5cea623b5441992f06bdc942
+  Ripples: 8f0078d81c55235351e77903cf540405c497f3f9
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  Siren: 3a20e60d8af3c2a5b5554453085aba16e70ead65
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  SwiftQRScanner: e09dc7b549d0d7301cdca505d483665af8cda58e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WSTagsField: a4e91b7d866e8c9755332ebcf8123f42f2abd4a0
+  YesWeScan: ad8be3cc6499d162b9be8a14dfe5080aca6305d1
+
+PODFILE CHECKSUM: 28eca7a8f9da5e7872305d542935ecde3683a257
+
+COCOAPODS: 1.11.3
